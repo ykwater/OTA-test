@@ -1,0 +1,39 @@
+高级: 'xpath==//*[@id="details-button"]'
+继续前往: 'xpath==//*[@id="proceed-link"]'
+用户名框: "name==username"
+用户密码框: "name==password"
+登录按钮: "id==okta-signin-submit"
+OTA管理按钮: 'xpath==//*[@id="xl4-landing"]/a[2]'
+升级任务按钮: "xpath==/html/body/sota-app/div/leftnavigationmenu/nav/ul/li[4]/a/span[1]"
+新建任务按钮: 'xpath==//*[@id="new_cam"]'
+任务名称框: 'xpath==//*[@id="campaign-tbl"]/tbody/tr[1]/td/input'
+任务描述框: 'xpath==//*[@id="campaign-tbl"]/tbody/tr[4]/td/input'
+创建按钮: 'xpath==/html/body/sota-app/div/div/app-header/div[2]/ng-component/div[2]/div/div/div[3]/div/div[1]/button'
+
+制造商: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[1]/div[1]/dropdown/span/select'
+品牌: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[1]/div[2]/dropdown/span/select'
+车系: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[1]/div[3]/dropdown/span/select'
+车型按钮: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[1]/div[4]/div[26]/label/span'
+第一步: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[3]/div[2]/a'
+
+版本输入框: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[2]/input'
+版本搜索按钮: 'xpath==//*[@id="search-go"]'
+选择版本号: 'xpath==//*[@id="tblList"]/tbody/tr/td/span/label'
+
+下一步: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div[2]/div/div[4]/div[2]/a'
+VIN输入框: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div/div[1]/div[1]/div[2]/div[1]/div[2]/input'
+VIN搜索按钮: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div/div[1]/div[1]/div[2]/div[2]/button'
+选择VIN: 'xpath==//*[@id="tblList"]/tbody/tr[1]/td[1]/span/label'
+第二步: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div/div[2]/div/div[2]/a'
+预估时间: 'xpath ==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/ul/li[3]/div/div[2]/input'
+升级策略: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/ul/li[4]/div/div[2]/select'
+升级信息: 'xpath==//*[@id="zh-text"]'
+第三步: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div/div/div[2]/a'
+申请批准: 'xpath==//*[@id="campaign_edit_content_div"]/ng-component/div[2]/div/div[2]/div[2]/div/div[1]/button'
+审批按钮: 'xpath==/html/body/sota-app/div/leftnavigationmenu/nav/ul/li[9]/a/span[1]'
+任务名称搜索框: 'xpath==/html/body/sota-app/div/div/app-header/div[2]/fontana-campaign-approvals/div/div[2]/div/div[2]/div/input'
+任务搜索按钮: 'xpath==/html/body/sota-app/div/div/app-header/div[2]/fontana-campaign-approvals/div/div[2]/div/div[2]/div/button'
+任务选择按钮: 'xpath==/html/body/sota-app/div/div/app-header/div[2]/fontana-campaign-approvals/div/div[3]/div/table/tbody/tr/td[7]/a[3]/i'
+选择批准: 'xpath==//*[@id="approval"]/span/select'
+批准描述框: 'xpath==//*[@id="note"]'
+保存按钮: 'xpath==/html/body/sota-app/div/div/app-header/div[2]/fontana-campaign-approvals/fontana-campaign-approval-edit/div/div/div/div[3]/div/div[1]/button'

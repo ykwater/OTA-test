@@ -1,0 +1,36 @@
+
+variables
+{
+    
+    mstimer cycle;
+    timer sleeptime;
+    message 0x72D ECU_FunRx;
+    message 0x72D ECU_Flow;
+    
+
+}
+
+on timer cycle
+{
+  setTimer(cycle, 100);
+    output(ECU_Flow);
+}
+
+on timer sleeptime
+{
+   output(ECU_FunRx);
+}
+
+on start
+{
+  setTimer(cycle, 100);
+  setTimer(sleeptime, 2);
+  ECU_FunRx.dlc = 8;
+  ECU_FunRx.byte(0) = 0x03;
+  ECU_FunRx.byte(1) = 0x22;
+  ECU_FunRx.byte(2) = 0xF1;
+  ECU_FunRx.byte(3) = 0x89;
+  ECU_Flow.dlc = 8;
+  ECU_Flow.byte(0) = 0x30;
+ }
+    
